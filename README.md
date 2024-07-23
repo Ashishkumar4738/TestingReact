@@ -2,6 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Steps to deploy React app to GitHub pages
+1. `npm install --save gh-pages`
+2. Now come in `package.json` file
+    1. In the first line after open Curly braces write `"homepage":"https://your_github_username".github.io/your_repository_name`
+    2. Then come in `"scripts` object and write two lines
+        - ` "predeploy":"npm run build" `
+        - ` "deploy" :"gh-pages -d build" `
+
+
 ## Available Scripts
 
 In the project directory, you can run:

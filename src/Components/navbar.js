@@ -4,16 +4,15 @@ const Navbar = () => {
     return (
         <>
             <header>
-                <nav className='flex  ' >
-                    <div>Logo</div>
-                    <div>
-                        <ul>
+                <nav className='flex justify-around bg-red-300 items-center ' >
+                    <div className='text-4xl  ' >Logo</div>
+                        <ul className='flex justify-evenly gap-10 ' >
                             <li>Home</li>
                             <li>About</li>
                             <li>pass</li>
                             <li>fail</li>
                         </ul>
-                    </div>
+                    
                 </nav>
 
             </header>
